@@ -1,1 +1,1 @@
-# ml-on-the-edge
+# Machine Learning Models for Low Power Object Detection
