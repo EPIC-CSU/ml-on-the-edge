@@ -5,6 +5,9 @@ This repository contains code for video object detection, as part of the 2021 IE
 ![LPCV video object detection](http://www.engr.colostate.edu/~sudeep/wp-content/uploads/lpcv-challenge.gif)
 
 ## Notebook and Folder Descriptions
+
+It is best to run these ntoebooks in the Google Colab environment. 
+
 - YOLOv5_LPCV_Train: Used to train YOLOv5 on the LPCV data. To train on the LPCV.ai data from the challenges files. If you do not have a zip file of the LPCV data in image and label format, you must upload all LPCV.ai videos and csv files before running all cells in succession. If you possess such a zip file, unzip the folder and run the cells beginning with the data augmenation cells.
 
 - YOLOv5_Compile_For_Edge: A modified version of Google's compile_for_edgetpu.ipynb. This version includes the ability to convert a .pt model to .tflite using the YOLOv5 repo, as well as a special command to compile the model that overrides an error that occurs without the edited command.
