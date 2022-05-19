@@ -1,6 +1,6 @@
 # Machine Learning Models for Low Power Object Detection
 
-This repository contains code for video object detection, as part of the 2021 IEEE Low Power Computer Vision Challenge. The code consits of a YOLOv5 object detector model that has been optimized for real-time detection on the LPCV.ai dataset, and has been deployed on teh Coral AI accelerator. The image below shows the YOLOv5 object detector in action.
+This repository contains code for video object detection, as part of the 2021 IEEE Low Power Computer Vision Challenge. The code consits of a YOLOv5 object detector model that has been optimized for real-time detection on the LPCV.ai dataset that consists of videos (MP4) along with labels of the people and the balls (CSV). The model has been deployed on the Coral AI accelerator (support files included). The image below shows the YOLOv5 object detector in action.
 
 ![LPCV video object detection](http://www.engr.colostate.edu/~sudeep/wp-content/uploads/lpcv-challenge.gif)
 
