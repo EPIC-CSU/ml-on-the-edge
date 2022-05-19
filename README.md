@@ -1,6 +1,6 @@
 # Machine Learning Models for Low Power Object Detection
 
-This repository contains code for video object detection, as part of the 2021 IEEE Low Power Computer Vision Challenge. The code consits of a YOLOv5 object detector model that has been optimized for real-time detection on the LPCV.ai dataset that consists of videos (MP4) along with labels of the people and the balls (CSV). The model has been deployed on the Coral AI accelerator (support files included). The image below shows the YOLOv5 object detector in action.
+This repository contains code for video object detection, as part of the 2021 IEEE Low Power Computer Vision Challenge. The code consits of a YOLOv5 object detector model and an EfficientDet object detector model that have both been optimized for real-time detection on the LPCV.ai dataset that consists of videos (MP4) along with labels of the people and the balls (CSV). The model has been deployed on the Coral AI accelerator (support files included). The image below shows the YOLOv5 object detector in action.
 
 ![LPCV video object detection](http://www.engr.colostate.edu/~sudeep/wp-content/uploads/lpcv-challenge.gif)
 
@@ -11,6 +11,8 @@ It is best to run these ntoebooks in the Google Colab environment.
 - YOLOv5_LPCV_Train: Used to train YOLOv5 on the LPCV data. To train on the LPCV.ai data from the challenges files. If you do not have a zip file of the LPCV data in image and label format, you must upload all LPCV.ai videos and csv files before running all cells in succession. If you possess such a zip file, unzip the folder and run the cells beginning with the data augmenation cells.
 
 - YOLOv5_Compile_For_Edge: A modified version of Google's compile_for_edgetpu.ipynb. This version includes the ability to convert a .pt model to .tflite using the YOLOv5 repo, as well as a special command to compile the model that overrides an error that occurs without the edited command.
+
+- EfficientDet-LPCV-Train-Detect: Used to train and test an EficientDet model on the LPCV data.
 
 This folder yolov5-coral contains scripts necessary to run an edge optimized version of YOLOv5
 
