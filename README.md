@@ -1,6 +1,6 @@
 # Machine Learning Models for Low Power Object Detection
 
-[LPCV video object detection](http://www.engr.colostate.edu/~sudeep/wp-content/uploads/lpcv-challenge.gif)
+![LPCV video object detection](http://www.engr.colostate.edu/~sudeep/wp-content/uploads/lpcv-challenge.gif)
 
 ## Notebook and Folder Descriptions
 - YOLOv5_LPCV_Train: Used to train YOLOv5 on the LPCV data. To train on the LPCV.ai data from the challenges files. If you do not have a zip file of the LPCV data in image and label format, you must upload all LPCV.ai videos and csv files before running all cells in succession. If you possess such a zip file, unzip the folder and run the cells beginning with the data augmenation cells.
